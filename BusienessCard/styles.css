@@ -1,0 +1,78 @@
+/* Genel Stil Ayarları */
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #121212; /* Koyu Arka Plan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Kart Tasarımı */
+.card {
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff8c00, #1a1a1a); /* Turuncu-Siyah Geçişli Arka Plan */
+    color: white;
+    border-radius: 15px;
+    border: 2px solid #ff7300;
+    box-shadow: 0 0 15px rgba(255, 140, 0, 0.6);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Efekti */
+.card:hover {
+    box-shadow: 0 0 25px rgba(255, 140, 0, 0.9);
+}
+
+/* Profil Fotoğrafı */
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Profil Fotoğrafına Hover Efekti */
+.avatar:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
+/* Metin Efektleri */
+h3, p, h4 {
+    text-shadow: 2px 2px 8px rgba(255, 140, 0, 0.6);
+}
+
+/* Buton Tasarımı */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #ff8c00;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+/* Butona Hover Efekti */
+.button:hover {
+    background: #ff6500;
+}
+
+/* Sosyal Medya İkonları */
+.social-icons img {
+    width: 30px;
+    margin: 10px 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* İkonlara Hover Efekti */
+.social-icons img:hover {
+    transform: scale(1.2);
+}
